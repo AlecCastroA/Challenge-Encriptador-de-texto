@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) =>{
     const encriptarButton = document.getElementById('encriptar');
     const desencriptarButton = document.getElementById('desencriptar');
     const copiarButton = document.getElementById('copiar');
+    const switchButton = document.getElementById('input');
 
     const originalHeight = inputText.style.height;
 
@@ -93,6 +94,11 @@ document.addEventListener('DOMContentLoaded', (event) =>{
     });
 
     adjustTextareaHeight();
+
+    switchButton.addEventListener('change', () =>{
+        document.body.classList.toggle("dark-mode");
+        switchButton.classList.toggle("active");
+    })
 
 
 });
