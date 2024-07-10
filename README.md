@@ -13,6 +13,7 @@ Este proyecto es una aplicación web simple para encriptar y desencriptar texto 
 - Desencriptar texto encriptado utilizando las mismas reglas pero en sentido inverso.
 - Copiar el texto encriptado/desencriptado al portapapeles.
 - Ajustar automáticamente la altura del `textarea` en dispositivos móviles para adaptarse al contenido.
+- - **Nuevo:** Agregar un interruptor de modo oscuro con iconos para indicar los modos claro y oscuro.
 
 ## Instalación
 
@@ -32,6 +33,7 @@ Este proyecto es una aplicación web simple para encriptar y desencriptar texto 
 2. Haz clic en el botón `Encriptar` para encriptar el texto.
 3. Haz clic en el botón `Desencriptar` para desencriptar el texto.
 4. Haz clic en el botón `Copiar` para copiar el texto encriptado o desencriptado al portapapeles.
+5. Usa el interruptor deslizante para cambiar entre el modo claro y oscuro.
 
 ## Autor
 
